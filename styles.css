@@ -183,6 +183,7 @@ nav ul li a:hover {
 }
 
 .social-links .icons a {
+    color: #00757a; /* Matches Discover Taniti heading */
     display: inline-block;
     margin: 0 1rem;
     transition: transform 0.3s ease;
