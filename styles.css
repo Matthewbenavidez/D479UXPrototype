@@ -1,9 +1,9 @@
+/* Root Palette */
 :root {
-    --sunset-pink: #f78ca2;
-    --golden-coral: #ffb07c;
-    --tropical-purple: #5e4b8b;
-    --lagoon-blue: #3b8ea5;
-    --palm-shadow: #1f1f2e;
+    --sandy-beige: #EDDCC0;
+    --aqua-mist: #72B7BA;
+    --seafoam-teal: #2B8B9C;
+    --deep-ocean-blue: #134F66;
 }
 
 /* Global Styles */
@@ -12,29 +12,16 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: var(--tropical-purple);
-    color: white;
+    background-color: var(--sandy-beige);
+    color: var(--deep-ocean-blue);
 }
 
 header {
-    background-color: var(--palm-shadow);
+    background-color: var(--deep-ocean-blue);
     color: white;
     padding: 1rem 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.top-banner h1 {
-    margin: 0.2rem;
-    font-size: 2.75rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.top-banner p {
-    margin: 0;
-    font-size: 1.2rem;
-    font-style: italic;
 }
 
 nav ul {
@@ -43,26 +30,22 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: var(--lagoon-blue);
+    background-color: var(--seafoam-teal);
     flex-wrap: wrap;
-}
-
-nav ul li {
-    margin: 0.5rem;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    transition: background-color 0.3s ease;
     border-radius: 4px;
     font-weight: 600;
+    transition: background-color 0.3s ease;
 }
 
 nav ul li a.active,
 nav ul li a:hover {
-    background-color: var(--sunset-pink);
+    background-color: var(--aqua-mist);
 }
 
 .hero {
@@ -74,10 +57,9 @@ nav ul li a:hover {
 .hero-image {
     width: 100%;
     height: auto;
-    display: block;
     max-height: 80vh;
     object-fit: cover;
-    border-radius: 15px;
+    display: block;
 }
 
 .hero-text {
@@ -85,25 +67,15 @@ nav ul li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(31, 31, 46, 0.55); /* using palm shadow as semi-transparent */
+    background-color: rgba(19, 79, 102, 0.6); /* deep-ocean-blue with opacity */
     padding: 2rem;
     border-radius: 10px;
     max-width: 85%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
-.hero-text h2 {
-    margin-bottom: 1rem;
-    font-size: 2.2rem;
-}
-
-.hero-text p {
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
-}
-
 .btn {
-    background-color: var(--sunset-pink);
+    background-color: var(--seafoam-teal);
     color: white;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
@@ -114,19 +86,19 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: var(--golden-coral);
+    background-color: var(--deep-ocean-blue);
 }
 
 .about-island {
-    background-color: var(--lagoon-blue);
+    background-color: var(--aqua-mist);
     padding: 2rem;
     text-align: center;
+    color: var(--deep-ocean-blue);
 }
 
 .about-island h2 {
     font-size: 2rem;
-    color: var(--golden-coral);
-    margin-bottom: 1rem;
+    color: var(--deep-ocean-blue);
 }
 
 .about-island p {
@@ -134,7 +106,6 @@ nav ul li a:hover {
     margin: 0 auto;
     font-size: 1.1rem;
     line-height: 1.6;
-    color: white;
 }
 
 .features {
@@ -142,7 +113,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 2rem;
-    background-color: var(--sunset-pink);
+    background-color: var(--sandy-beige);
     text-align: center;
 }
 
@@ -150,10 +121,10 @@ nav ul li a:hover {
     max-width: 300px;
     margin: 1rem;
     padding: 1rem;
-    background: var(--palm-shadow);
+    background: var(--aqua-mist);
     border-radius: 10px;
+    color: var(--deep-ocean-blue);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    color: white;
 }
 
 .feature-image {
@@ -171,29 +142,25 @@ nav ul li a:hover {
     display: block;
 }
 
-.feature-link .feature {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
 .feature-link .feature:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .social-links {
-    background-color: var(--lagoon-blue);
+    background-color: var(--deep-ocean-blue);
     padding: 2rem 1rem;
     text-align: center;
+    color: white;
 }
 
 .social-links h2 {
-    margin-bottom: 1rem;
     font-size: 1.8rem;
-    color: var(--golden-coral);
+    margin-bottom: 1rem;
+    color: white;
 }
 
 .social-links .icons a {
-    color: var(--golden-coral);
     display: inline-block;
     margin: 0 1rem;
     transition: transform 0.3s ease;
