@@ -60,7 +60,6 @@ nav ul li a:hover {
     max-height: 80vh;
     object-fit: cover;
     display: block;
-    border-radius: 20px;
     padding: 5px;
     background-color: var(--deep-ocean-blue);
 }
