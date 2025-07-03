@@ -1,19 +1,27 @@
+:root {
+    --sunset-pink: #f78ca2;
+    --golden-coral: #ffb07c;
+    --tropical-purple: #5e4b8b;
+    --lagoon-blue: #3b8ea5;
+    --palm-shadow: #1f1f2e;
+}
+
 /* Global Styles */
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f0f9f8;
-    color: #2c3e50;
+    background-color: var(--tropical-purple);
+    color: white;
 }
 
 header {
-    background-color: #008080;
+    background-color: var(--palm-shadow);
     color: white;
     padding: 1rem 0;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 .top-banner h1 {
@@ -35,7 +43,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #006666;
+    background-color: var(--lagoon-blue);
     flex-wrap: wrap;
 }
 
@@ -54,7 +62,7 @@ nav ul li a {
 
 nav ul li a.active,
 nav ul li a:hover {
-    background-color: #004c4c;
+    background-color: var(--sunset-pink);
 }
 
 .hero {
@@ -94,7 +102,7 @@ nav ul li a:hover {
 }
 
 .btn {
-    background-color: #00bfa6;
+    background-color: var(--sunset-pink);
     color: white;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
@@ -105,18 +113,19 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: #008f7a;
+    background-color: var(--golden-coral);
 }
 
 .about-island {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 2rem;
     text-align: center;
+    color: var(--palm-shadow);
 }
 
 .about-island h2 {
     font-size: 2rem;
-    color: #00757a;
+    color: var(--lagoon-blue);
     margin-bottom: 1rem;
 }
 
@@ -125,7 +134,6 @@ nav ul li a:hover {
     margin: 0 auto;
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #333;
 }
 
 .features {
@@ -133,8 +141,9 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 2rem;
-    background-color: #e6f7f5;
+    background-color: var(--golden-coral);
     text-align: center;
+    color: var(--palm-shadow);
 }
 
 .feature {
@@ -171,19 +180,20 @@ nav ul li a:hover {
 }
 
 .social-links {
-    background-color: #f7fdfc;
+    background-color: #fff;
     padding: 2rem 1rem;
     text-align: center;
+    color: var(--palm-shadow);
 }
 
 .social-links h2 {
     margin-bottom: 1rem;
     font-size: 1.8rem;
-    color: #2c3e50;
+    color: var(--lagoon-blue);
 }
 
 .social-links .icons a {
-    color: #00757a; /* Matches Discover Taniti heading */
+    color: var(--lagoon-blue);
     display: inline-block;
     margin: 0 1rem;
     transition: transform 0.3s ease;
@@ -200,4 +210,3 @@ nav ul li a:hover {
     filter: none;
     transform: scale(1.15);
 }
-
