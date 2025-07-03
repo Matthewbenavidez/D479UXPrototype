@@ -132,6 +132,21 @@ nav ul li a:hover {
     margin-bottom: 1rem;
 }
 
+.feature-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.feature-link .feature {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-link .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
 .info, .quick-facts {
     text-align: center;
     padding: 2rem;
