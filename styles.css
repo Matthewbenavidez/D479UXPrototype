@@ -126,13 +126,13 @@ nav ul li a:hover {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.feature img {
-    width: 100% !important;
-    max-width: 300px !important;
-    height: auto !important;
-    border-radius: 12px !important;
-    display: block !important;
-    margin: 0 auto 1rem !important;
+.feature-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 1rem;
 }
 
 .feature-link {
