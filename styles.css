@@ -127,9 +127,12 @@ nav ul li a:hover {
 }
 
 .feature img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 1rem;
 }
 
 .feature-link {
