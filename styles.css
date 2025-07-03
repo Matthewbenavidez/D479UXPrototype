@@ -127,12 +127,12 @@ nav ul li a:hover {
 }
 
 .feature img {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
-    border-radius: 12px;
-    display: block;
-    margin: 0 auto 1rem;
+    width: 100% !important;
+    max-width: 300px !important;
+    height: auto !important;
+    border-radius: 12px !important;
+    display: block !important;
+    margin: 0 auto 1rem !important;
 }
 
 .feature-link {
