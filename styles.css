@@ -170,38 +170,33 @@ nav ul li a:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.info, .quick-facts {
+.social-links {
+    background-color: #f7fdfc;
+    padding: 2rem 1rem;
     text-align: center;
-    padding: 2rem;
-    background-color: #ffffff;
 }
 
-.quick-facts ul {
-    list-style: none;
-    padding: 0;
-    max-width: 400px;
-    margin: 1rem auto 0;
-    text-align: left;
+.social-links h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #00757a;
 }
 
-.quick-facts ul li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #ddd;
+.social-links .icons a {
+    display: inline-block;
+    margin: 0 1rem;
+    transition: transform 0.3s ease;
 }
 
-footer {
-    background-color: #004c4c;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    font-size: 0.9rem;
+.social-links .icons img {
+    width: 36px;
+    height: 36px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-.footer-content p {
-    margin: 0.3rem;
+.social-links .icons a:hover img {
+    filter: none;
+    transform: scale(1.15);
 }
 
-.footer-content a {
-    color: #c0f0ec;
-    text-decoration: underline;
-}
