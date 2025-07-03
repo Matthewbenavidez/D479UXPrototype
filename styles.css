@@ -108,6 +108,26 @@ nav ul li a:hover {
     background-color: #008f7a;
 }
 
+.about-island {
+    background-color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-island h2 {
+    font-size: 2rem;
+    color: #00757a;
+    margin-bottom: 1rem;
+}
+
+.about-island p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
 .features {
     display: flex;
     flex-wrap: wrap;
